@@ -39,4 +39,48 @@ body{
     position: relative;
     left: 30px;
     top: 564px; 
+    border-radius: 10px;
+    animation: 500ms infinite right;
+ }
+ @keyframes left{
+    0%{
+        left: 150px;
+    }
+ }
+ @keyframes right{
+    0%{
+        right: 150px;
+    }
+ }
+ .builb{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 2px;
+    left: 2px;
+ }
+ .builb1{
+    background-color: white;
+    border: 1px solid;
+    height: 10px;
+    width: 10px;
+    border-radius: 13px;
+ }
+ .builb2{
+    background-color: white;
+    border: 1px solid;
+    height: 10px;
+    width: 10px;
+    border-radius: 13px;
+    position: relative;
+    right: 5px;
+ }
+ .screen{
+    background-color: white;
+    border: 1px solid;
+    height: 13px;
+    width: 30px;
+    position: relative;
+    top: 10px;
+    left: 0.9px;
  }
